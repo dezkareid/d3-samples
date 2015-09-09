@@ -121,4 +121,4 @@ svg.append("g")
 
 heatMap.transition()
   .duration(2000)
-  .style("fill", function(d) { return z(d[3]); })   
+  .style("fill", function(d) { return z(d[3]); }); 
