@@ -1,0 +1,33 @@
+<!doctype html5>
+<html>
+  <head>
+    <title>Choropleth</title>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font: 10px sans-serif;
+      }
+
+      .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+      }
+
+      .tooltip {
+        position: absolute;
+        width: 200px;
+        height: 28px;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="js/choropleth.js"></script>
+  </body>
+</html>
