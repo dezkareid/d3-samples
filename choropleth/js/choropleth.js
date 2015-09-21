@@ -91,7 +91,6 @@ queue()
 function getMigrationPercent1990 (state_code) {
     var inmigration = inmigration_data[state_code-1];
     var percent = ((inmigration.pobindi1990* 1.0) / inmigration.tpobtot1990) * 100;
-    console.log(percent)
     return percent;
 }
 
